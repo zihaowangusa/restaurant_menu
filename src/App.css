@@ -1,0 +1,41 @@
+h1, h3 {
+  color: red;
+  font-weight: bold;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: Lightblue;
+}
+
+.container{
+  display: flex;
+}
+
+.item1 {
+  flex: 1;
+}
+
+.item2 {
+  flex: 1;
+}
+
+.item3 {
+  flex: 3;
+}
+
+li:hover {
+  background-color: yellow;
+  display: inline-block;
+  border: solid black 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.table {
+  border-collapse: collapse;
+  border: none;
+}
+
+.column {
+  border: solid black 1px;
+}
